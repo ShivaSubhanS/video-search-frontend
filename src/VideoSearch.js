@@ -14,7 +14,7 @@ function VideoSearch({ setSelectedTimestamp }) {
 
     setError(null);
     try {
-      const response = await axios.post('https://153a79d0385b.ngrok-free.app/search', { query });
+      const response = await axios.post('https://0562f4ff5a67.ngrok-free.app/search', { query });
       setResults(response.data);
     } catch (err) {
       setError('Error searching: ' + (err.response?.data?.error || err.message));
