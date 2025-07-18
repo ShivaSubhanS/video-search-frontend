@@ -23,7 +23,7 @@ function VideoUpload({ setVideoUrl }) {
     formData.append('video', file);
 
     try {
-      await axios.post('https://djk73tkd-5000.inc1.devtunnels.ms/upload', formData);
+      await axios.post('https://153a79d0385b.ngrok-free.app/upload', formData);
       setVideoUrl(URL.createObjectURL(file));
       alert('Video uploaded and processed successfully');
     } catch (err) {
