@@ -5,7 +5,7 @@ import './App.css';
 
 function App() {
   const [videoUrl, setVideoUrl] = useState(null);
-  const [selectedTimestamp, setSelectedTimestamp] = useState(0);
+  const [, setSelectedTimestamp] = useState(0);
 
   return (
     <div className="app">
