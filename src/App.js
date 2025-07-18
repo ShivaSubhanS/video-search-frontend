@@ -5,6 +5,7 @@ import './App.css';
 
 function App() {
   const [videoUrl, setVideoUrl] = useState(null);
+  // eslint-disable-next-line no-unused-vars
   const [, setSelectedTimestamp] = useState(0);
 
   return (
