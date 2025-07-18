@@ -3,6 +3,7 @@ import VideoUpload from './VideoUpload';
 import VideoSearch from './VideoSearch';
 import './App.css';
 
+// eslint-disable-next-line no-unused-vars
 function App() {
   const [videoUrl, setVideoUrl] = useState(null);
   // eslint-disable-next-line no-unused-vars
